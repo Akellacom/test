@@ -18,7 +18,4 @@ steps:
 - name: ls
   commands:
   - ls -lh
-  
-- name: pwd
-  commands:
-  – pwd
+
