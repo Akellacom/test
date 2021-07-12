@@ -6,7 +6,10 @@ server:
   host: 135.148.121.242
   user: centos
   password: 7J3gCCTn3M52
-
+  
+clone:
+  disable: true
+  
 steps:
 - name: greeting
   commands:
@@ -15,3 +18,7 @@ steps:
 - name: ls
   commands:
   - ls -lh
+  
+- name: pwd
+  commands:
+  – pwd
