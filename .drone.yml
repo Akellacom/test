@@ -13,7 +13,7 @@ clone:
 steps:
 - name: cd
   commands:
-  - cd /var/www
+  - cd ./var/www
 
 - name: ls
   commands:
