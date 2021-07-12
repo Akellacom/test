@@ -11,9 +11,9 @@ clone:
   disable: true
   
 steps:
-- name: greeting
+- name: cd
   commands:
-  - echo hello world
+  - cd /var/www
 
 - name: ls
   commands:
