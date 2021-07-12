@@ -1,1 +1,14 @@
+kind: pipeline
+type: ssh
+name: default
 
+server:
+  host: 135.148.121.242
+  user: centos
+  password:
+    from_secret: 7J3gCCTn3M52
+
+steps:
+- name: greeting
+  commands:
+  - echo hello world
